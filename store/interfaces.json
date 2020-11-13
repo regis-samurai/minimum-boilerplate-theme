@@ -1,0 +1,9 @@
+{
+  "wishlist-link": {
+    "component": "WishlistLink"
+  },
+  "wishlist-page": {
+    "component": "WishlistPage",
+    "allowed": ["list-context"]
+  }
+}
