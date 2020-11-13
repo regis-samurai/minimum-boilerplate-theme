@@ -18,7 +18,6 @@ const WishlistPage = (props) => {
           namespace="my-custom-page"
           title="wishlist"
           backButton={backButton}>
-        {({ handleError }) => children}
     <ExtensionPoint id="list-context" />
       </ContentWrapper>
   return null
