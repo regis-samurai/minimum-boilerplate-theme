@@ -1,6 +1,6 @@
 {
-  "vendor": "codeby",
-  "name": "sandbox",
+  "vendor": "storeido",
+  "name": "my-account",
   "version": "0.1.0",
   "builders": {
     "styles": "2.x",

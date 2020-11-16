@@ -9,16 +9,16 @@ import {
 const backButton = {
   title: "indietro",
   titleId: "indietro-wishlist",
-  path: "/account"
+  path: "/"
 };
 
 const WishlistPage = (props) => {
 
   if(props.location.pathname == "/wishlist") return <ContentWrapper
-          namespace="my-custom-page"
-          title="wishlist"
+          namespace="wishlist-page"
+          title="Wishlist"
           backButton={backButton}>
-    <ExtensionPoint id="list-context" />
+        {({ handleError }) => <ExtensionPoint id="list-context" />}
       </ContentWrapper>
   return null
 }
